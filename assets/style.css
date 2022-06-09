@@ -1,0 +1,55 @@
+* {
+    /*outline: 1px solid red;*/
+    
+}
+
+body {
+    background: orange;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#container {
+    background: white;
+}    
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid orange;
+}
+
+table,tr,th,td {
+    border: 2px solid orange;
+}
+
+#button-container {
+    border: 1px solid black;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+}
+
+button {
+    border-radius: 25px;
+    font-size: 25px;
+}
+
+
+#flip-btn {
+    background: rgb(141, 141, 175);
+    color: white;
+}
+
+#flip-btn:hover {
+    background-color: pink;
+}
+
+
+#reset-btn:hover {
+    background: orange;
+}

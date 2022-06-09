@@ -4,36 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Penny Flip</title>
 </head>
 <body>
-    <div>
+    <div id="container">
         <!-- header -->
         <h1> Penny Flip Game</h1>
-        <img src="" alt="image of a penny">
-        <div>
-            <button>Flip the Penny!</button>
-            <button>Clear Scoreboard</button>
+        <img id="penny-img" src="./assets/images/penny-heads.jpg" alt="image of a penny">
+        <div id="button-container">
+            <button id="flip-btn">Flip the Penny!</button>
+            <button id="reset-btn">Clear Scoreboard</button>
         </div>
-        <h2>Let's Get Rolling!</h2>
+        <h2 id="result-header">Let's Get Rolling!</h2>
         <hr>
         <h3>Scoreboard</h3>
+        
         <table>
-            <th>
+            <tr>
                 <td>Number of Heads</td>
                 <td>Percentage Heads</td>
                 <td>Number of Tails</td>
                 <td>Percentage Tails</td>
-            </th>
+            </tr>
             <tr>
-                <td>0</td>
-                <td>0%</td>
-                <td>0</td>
-                <td>0%</td>
+                <td id="heads-counter">0</td>
+                <td id="heads-percent">0%</td>
+                <td id="tails-counter">0</td>
+                <td id="tails-percent">0%</td>
             </tr>
         </table>
-
     </div>
     
+    <script src="./assets/script.js"></script>
 </body>
 </html>
